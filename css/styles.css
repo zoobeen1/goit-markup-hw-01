@@ -4,10 +4,15 @@ body {
   margin: auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
+
+a {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  color: #000000;
+}
+
 .head {
   display: flex;
   flex-direction: row;
-  padding-top: 24px;
   background-color: #fff;
   margin: auto;
 }
@@ -19,6 +24,8 @@ body {
   line-height: 31px;
   margin-left: 215px;
   margin-right: 93px;
+  margin-bottom: 25px;
+  margin-top: 24px;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -26,6 +33,37 @@ body {
 .logo a {
   color: #000000;
 }
+
+.ul-line {
+  margin: 0; /* Обнуляем значение отступов */
+  margin-top: 32px;
+}
+
+.ul-line li {
+  display: inline; /* Отображать как строчный элемент */
+  margin-right: 50px; /* Отступ справа */
+
+  padding: 3px; /* Поля вокруг текста */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.head-address {
+  margin-left: auto;
+  margin-right: 215px;
+  margin-top: 32px;
+}
+.head-address a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  margin-left: 50px;
+  color: #757575;
+}
+
 .header-content {
   padding-top: 200px;
   padding-bottom: 200px;
