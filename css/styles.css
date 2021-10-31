@@ -40,9 +40,8 @@ a {
 }
 
 .ul-line li {
-  display: inline; /* Отображать как строчный элемент */
   margin-right: 50px; /* Отступ справа */
-
+  display: inline; /* Отображать как строчный элемент */
   padding: 3px; /* Поля вокруг текста */
   font-style: normal;
   font-weight: 500;
@@ -66,6 +65,7 @@ a {
 
 .header-content {
   padding-top: 200px;
+  margin-bottom: 94px;
   width: 1600px;
   height: 400px;
   background: #2f303a;
@@ -106,4 +106,55 @@ button {
   letter-spacing: 0.06em;
   background-color: #2196f3;
   color: #ffffff;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features ul {
+  display: flex;
+  flex-direction: row;
+  /margin-left: auto;
+  /margin-right: auto;
+  margin: 0; /* Обнуляем значение отступов */
+  padding: 0;
+}
+
+.features ul li {
+  width: 270px;
+  height: 101px;
+  display: inline; /* Отображать как строчный элемент */
+  /padding: 3px; /* Поля вокруг текста */
+  margin-right: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.features h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.features p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
