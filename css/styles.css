@@ -9,7 +9,25 @@ a {
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
   color: #000000;
 }
+section {
+  margin-left: auto;
+  margin-right: auto;
+}
 
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.blue {
+  color: rgb(0, 183, 255);
+}
+
+/*Section of header*/
 .head {
   display: flex;
   flex-direction: row;
@@ -26,8 +44,6 @@ a {
   margin-right: 93px;
   margin-bottom: 25px;
   margin-top: 24px;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
 }
 .logo a {
@@ -42,7 +58,6 @@ a {
 .ul-line li {
   margin-right: 50px; /* Отступ справа */
   display: inline; /* Отображать как строчный элемент */
-  padding: 3px; /* Поля вокруг текста */
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -69,9 +84,6 @@ a {
   width: 1600px;
   height: 400px;
   background: #2f303a;
-}
-.blue {
-  color: rgb(0, 183, 255);
 }
 
 h1 {
@@ -108,19 +120,16 @@ button {
   color: #ffffff;
 }
 
+/*Section Features*/
 .features {
   display: flex;
   flex-direction: row;
   width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .features ul {
   display: flex;
   flex-direction: row;
-  /margin-left: auto;
-  /margin-right: auto;
   margin: 0; /* Обнуляем значение отступов */
   padding: 0;
 }
@@ -129,7 +138,6 @@ button {
   width: 270px;
   height: 101px;
   display: inline; /* Отображать как строчный элемент */
-  /padding: 3px; /* Поля вокруг текста */
   margin-right: 30px;
   font-style: normal;
   font-weight: 500;
@@ -144,7 +152,6 @@ button {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #212121;
 }
 
@@ -152,9 +159,105 @@ button {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*Section Works*/
+.works {
+  margin-top: 94px;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.works h2 {
+  display: block;
+}
+
+.works ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.works ul li {
+  list-style-type: none;
+  margin-right: 33px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+/*Section Command*/
+.command {
+  margin-top: 94px;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  padding-top: 94px;
+}
+
+.command h2 {
+  margin: 0;
+  display: block;
+}
+
+.command ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.command ul li {
+  list-style-type: none;
+  text-align: center;
+  margin-right: 33px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(34, 32, 32, 0.342);
+}
+/*Footer*/
+footer {
+  margin-top: 94px;
+  width: 1600px;
+  height: 192px;
+  background-color: #2f303a;
+  padding-top: 60px;
+}
+
+.footer a.logo {
+  color: #ffffff;
+  margin-top: 0;
+}
+address {
+  display: block;
+  margin-left: 215px;
+  margin-bottom: 60px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
   /* or 171% */
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: #ffffff;
+}
+address p {
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+address a {
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 10px;
 }
